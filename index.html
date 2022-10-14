@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalized.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="nav collapsible">
+        <a href="/"><img src="./images/Dhanushan logo.png" alt="" class="nav__brand"></a>
+        <svg class="icon icon--primary nav__toggler">
+            <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#Home">Home</a></li>
+            <li class="nav__item"><a href="#About">About</a></li>
+            <li class="nav__item"><a href="#Skills">Skills</a></li>
+            <li class="nav__item"><a href="#Projects">Projects</a></li>
+            <li class="nav__item"><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="block block--dark block--skewed-right intro" id="Home" data-aos="zoom-in-down">
+        <header class="block__header">
+            <div class="container hero">
+                <h1 class="block__heading">Hi! I'm <span class="name">Dhanu</span></h1>
+                <h3 class="auto-typing">I'm a <span class="auto-input"></span></h3>
+                <a href="./My_resume.pdf" download="">
+                    <button class="btn btn--primary btn--cv">Download CV
+                        <svg class="icon icon--white">
+                            <use xlink:href="images/sprite.svg#download"></use>
+                        </svg>
+                    </button>
+                </a>              
+            </div>
+        </header>
+    </section>
+    
+    <section class="block container about" id="About">
+        <header class="block__header about__header" data-aos="zoom-in">
+            <h2>About me</h2>
+        </header>
+        <article class="feature" data-aos="fade-up">
+            <div class="feature__content">
+                <h3 class="feature__heading about-me__heading">Who is Dhanushan?</h3>
+                <p>I'm a Frontend Software engineer building the websites and web applications that leads to the success of 
+                    the overall product. I'm passionate about bringing both the technical and visual aspects of digital products
+                    to life. As a developer I love to create new products...
+                </p>
+                <p>I have a Bachelor's degree in Software Engineering from London Metropolitan university. I feel very
+                    happy when I'm creating, learning, exploring and thinking about how to make things better.
+                </p>
+                <h3 class="touch"><a href="#Contact">Get in Touch!</a></h3>
+            </div>         
+        </article>
+    </section>
+    
+    
+    <section class="block block--dark block--skewed-left" id="Skills">
+        <div class="container">
+            <header class="block__header" data-aos="fade-down">
+                <h3>Skills & Tools</h3>
+                <h1 class="block__heading">My Toolbox & Things I Can Do</h1>
+                <p>The skills, tools and technologies I use to create the products: </p>
+            </header>
+            <ul class="list block-domain__skills" data-aos="zoom-in-down">
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--orange">
+                            <use xlink:href="images/sprite.svg#html"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">HTML 5</p>
+                </li>
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#css"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">CSS 3</p>
+                </li>
+    
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#javascript"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">JavaScript</p>
+                </li>
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#react"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">React</p>
+                </li>
+    
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#git"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">Git</p>
+                </li>
+    
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#github"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">Github</p>
+                </li>
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#vscode"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">vscode</p>
+                </li>
+    
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#responsive"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">Responsive Websites</p>
+                </li>
+    
+                <li class="domain-list__container">
+                    <span class="icon-container">
+                        <svg class="icon icon--red">
+                            <use xlink:href="images/sprite.svg#photoshop"></use>
+                        </svg>
+                    </span>
+                    <p class="icon-name">Adobe Photoshop</p>
+                </li>
+                
+            </ul>
+            <section class="container" data-aos="zoom-in">
+                <h4 class="skills__heading">Currently working on: </h4>
+                <p class="skills__paragraph">Improving my skills in vanilla JavaScript and React. Also, understanding the
+                    concepts of Data Structure and Algorithms.</p>
+            </section>
+        </div>
+    </section>
+    
+    
+    <section class="block container" id="Projects">
+        <header class="block__header" data-aos="fade-up">
+            <h2>Projects</h2>
+        </header>
+        <article class="grid grid--1x2 feature">
+            <div class="feature__content" data-aos="zoom-in">
+                <h3 class="feature__heading">API connected website</h3>
+                <p>This is a movie search webiste where you can search movies by entering the name in the search bar and see the 
+                    movie's name and the rating. By hover over the image, you can see the overview of the movie.
+                </p>
+    
+                <span class="icon-container">
+                    <svg class="icon icon--orange">
+                        <use xlink:href="images/sprite.svg#html"></use>
+                    </svg>
+                </span>
+    
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#css"></use>
+                    </svg>
+                </span>
+
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#javascript"></use>
+                    </svg>
+                </span>
+    
+                <div class="grid grid--btn">
+                    <a href="https://github.com/DhanuV18/Movie-App.git" target="_blank" class="link-arrow link-arrow--primary">Github Repo</a>
+                    <a href="https://dhanuv18.github.io/Movie-App/" target="_blank" class="link-arrow link-arrow--secondary">Demo</a>
+                </div>
+            </div>
+    
+            <picture data-aos="zoom-in-up">
+                <source type="image/webp" srcset="images/movie.webp 1x, images/movie2x.webp 2x">
+                <source type="image/png" srcset="images/movie.png 1x, images/movie@2x.png 2x">
+                <img class="feature__image" src="images/movie.png" alt="">
+            </picture>
+        </article>
+    
+    
+        <article class="grid grid--1x2 feature">
+            <div class="feature__content" data-aos="zoom-in">
+                <h3 class="feature__heading">Landing page for a company</h3>
+                <p>This is a sample website for a book selling and buying company. You can find the company's details, customer's reviews, company's services 
+                    in this website.</p>
+    
+                <span class="icon-container">
+                    <svg class="icon icon--orange">
+                        <use xlink:href="images/sprite.svg#html"></use>
+                    </svg>
+                </span>
+    
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#css"></use>
+                    </svg>
+                </span>
+
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#javascript"></use>
+                    </svg>
+                </span>
+
+                <span class="icon-container">
+                    <svg class="icon icon--red">
+                        <use xlink:href="images/sprite.svg#photoshop"></use>
+                    </svg>
+                </span>
+    
+                <div class="grid grid--btn">
+                    <a href="https://github.com/DhanuV18/Scooby-app.git" target="_blank" class="link-arrow link-arrow--primary">Github Repo</a>
+                    <a href=" https://dhanuv18.github.io/Scooby-app/" class="link-arrow link-arrow--secondary" target="_blank">Demo</a>
+                </div>
+            </div>
+    
+            <picture data-aos="fade-up">
+                <source type="image/webp" srcset="images/Scooby.webp 1x, images/Scooby2x.webp 2x">
+                <source type="image/png" srcset="images/Scooby.png 1x, images/Scooby@2x.png 2x">
+                <img class="feature__image" src="images/Scooby.png" alt="">
+            </picture>
+    
+        </article>
+    
+        <article class="grid grid--1x2 feature">
+            <div class="feature__content" data-aos="zoom-in">
+                <h3 class="feature__heading">Rock Scissor Paper game</h3>
+                <p>This is a simple and fun game which you can play against the computer. If you click Scissors and  the computer chooses
+                    the paper you win the game. Scissors can cut paper. If you choose scissors and the computer chooses rock, the computer 
+                wins the game. Rock can break scissors. If you choose Paper and the computer chooses rock, you win the game. Paper can wrap the rock.</p>
+    
+                <span class="icon-container">
+                    <svg class="icon icon--orange">
+                        <use xlink:href="images/sprite.svg#html"></use>
+                    </svg>
+                </span>
+                
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#css"></use>
+                    </svg>
+                </span>
+                
+                <span class="icon-container">
+                    <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#javascript"></use>
+                    </svg>
+                </span>
+    
+                <div class="grid grid--btn">
+                    <a href="https://github.com/DhanuV18/Rock-Paper-Scissor-game.git" target="_blank" class="link-arrow link-arrow--primary">Github Repo</a>
+                    <a href="https://dhanuv18.github.io/Rock-Paper-Scissor-game/" target="_blank" class="link-arrow link-arrow--secondary">Demo</a>
+                </div>
+            </div>
+    
+            <picture data-aos="fade-up">
+                <source type="image/webp" srcset="images/game.webp 1x, images/game2x.webp 2x">
+                <source type="image/png" srcset="images/game.png 1x, images/game@2x.png 2x">
+                <img class="feature__image" src="images/game.png" alt="">
+            </picture>
+    
+        </article>
+    
+        <article class="grid grid--1x2 feature">
+            <div class="feature__content" data-aos="zoom-in">
+                <h3 class="feature__heading">Quiz App</h3>
+                <p>This is a simple quiz app where you can answer 5 different questions and finally see the score of the quiz.</p>
+    
+                    <span class="icon-container">
+                        <svg class="icon icon--orange">
+                            <use xlink:href="images/sprite.svg#html"></use>
+                        </svg>
+                    </span>
+
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#css"></use>
+                        </svg>
+                    </span>
+                    
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#javascript"></use>
+                        </svg>
+                    </span>
+
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="images/sprite.svg#react"></use>
+                        </svg>
+                    </span>
+
+                <div class="grid grid--btn">
+                    <a href="https://github.com/DhanuV18/react_quiz_app.git" target="_blank" class="link-arrow link-arrow--primary">Github Repo</a>
+                    <a href=" https://dhanuv18.github.io/react_quiz_app/" class="link-arrow link-arrow--secondary" target="_blank">Demo</a>
+                </div>
+            </div>
+    
+        <picture data-aos="zoom-in-up">
+            <source type="image/webp" srcset="images/quiz.webp 1x, images/quiz2x.webp 2x">
+            <source type="image/png" srcset="images/quiz.png 1x, images/quiz@2x.png 2x">
+            <img class="feature__image" src="images/quiz.png" alt="">
+        </picture>
+    
+        </article>
+    </section>
+    
+    <section class="block container contact">
+        <article>
+                <section class="block container" id="Contact" data-aos="zoom-in">
+                    <header class="block__header">
+                        <h3 class="block__heading">Contact</h3>
+                        <p>Feel free to contact me by submitting the form below and I will get back to you as soon as possible.</p>
+                    </header>
+                
+                    <form action="https://formspree.io/f/mlevldgo" class="form" method="POST">
+                
+                        <div>
+                            <input type="text" name="name" class="input input-text" placeholder="Name" required maxlength="20">
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="" class="input input-email" placeholder="E-mail" required>
+                        </div>
+                        <div>
+                            <textarea name="message" id="" cols="10" rows="10" class="input textarea" placeholder="Enter your message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="input input-submit">Send mail</button>
+                    </form>                
+                </section>
+
+
+                <section class="footer__sections">
+                    <div class="block__header" data-aos="fade-down">
+                        <h3 class="block__heading">
+                            Find me on these online spaces!
+                        </h3>
+                    </div>
+                
+                    <div class="block__header social-network" data-aos="fade-down">
+                        <a href="https://www.linkedin.com/in/visvanathan-dhanushan-048973253/" target="_blank">
+                            <span class="icon-container linkedin">
+                                <svg class="icon icon--primary">
+                                    <use xlink:href="images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="https://github.com/DhanuV18" target="_blank">
+                            <span class="icon-container github">
+                                <svg class="icon icon--primary">
+                                    <use xlink:href="images/sprite.svg#github"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+            </article>
+        </section>
+        
+        
+        <footer class="footer">
+            <section class="footer__brand">
+                <img src="./images/Dhanushan logo.png" alt="logo of the brand" class="footer__logo">
+                <p class="footer__copyright">Copyright 2022. Designed & coded by Dhanushan</p>
+            </section>
+            
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="./script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
